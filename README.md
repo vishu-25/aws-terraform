@@ -24,3 +24,34 @@ To begin your IaC journey with Terraform on AWS:
 
 4. Don't forget to check out the provided examples and tutorials in this repository to accelerate your learning process.
 
+## Executing Terraform commands
+Initialize your Terraform working directory
+```
+terraform init
+```
+
+Check your Terraform configuration files for syntax errors and other issues.
+```
+terraform validate
+```
+Preview the changes Terraform will make to your infrastructure before applying them.
+```
+terraform plan
+```
+Apply the planned changes to create or update your infrastructure.
+```
+terraform apply
+```
+
+## Clean-Up 
+
+Delete the resources created by Terraform.
+```
+terraform destroy
+```
+
+Clean up local files: Remove Terraform-specific files and state files from your local directory.
+```
+rm -rf .terrafrom.*
+rm -rf terrafrom.tfstate.*
+```
