@@ -16,7 +16,8 @@ Before you get started, please ensure you have the following tools and resources
 
 To begin your IaC journey with Terraform on AWS:
 
-1. Clone this repository to your local machine using `git clone`.
+1. Clone this repository to your local machine:
+     `git clone https://github.com/vishu-25/aws-terraform.git`
 
 2. Navigate to the cloned repository directory.
 
