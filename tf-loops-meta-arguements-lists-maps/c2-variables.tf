@@ -13,7 +13,7 @@ variable "instance_type" {
 variable "instance_keypair" {
   description = "RSA key for SSH"
   type = string
-  default = "terraform-aws"
+  default = " "          # Add your own KeyPair
 }
 
 variable "instance_type_list" {
