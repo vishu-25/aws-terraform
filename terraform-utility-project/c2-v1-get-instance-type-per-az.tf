@@ -1,4 +1,4 @@
-/*
+
 data "aws_ec2_instance_type_offerings" "my-instance-type-1" {
   filter {
     name = "instance-type"
@@ -15,4 +15,3 @@ data "aws_ec2_instance_type_offerings" "my-instance-type-1" {
 output "v1-output-1" {
   value = data.aws_ec2_instance_type_offerings.my-instance-type-1.instance_types
 }
-*/
