@@ -13,8 +13,8 @@ module "vpc" {
     create_database_subnet_route_table= true
     database_subnets    = ["10.0.151.0/24", "10.0.152.0/24"]
     
-    #create_database_nat_gateway_route = true
-    #create_database_internet_gateway_route = true
+    create_database_nat_gateway_route = true
+    create_database_internet_gateway_route = true
      
      enable_nat_gateway = true
      single_nat_gateway = true
